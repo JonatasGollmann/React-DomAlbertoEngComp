@@ -1,4 +1,3 @@
-
 import logoDomAlberto from "/src/assets/icons/logo_domalberto.jpg";
 
 export default function Footer() {
@@ -7,7 +6,7 @@ export default function Footer() {
       <footer className="bg-gradient-to-br to-amarelo_1 min-h-[200px] from-amarelo_3 flex max-md:flex-col justify-between items-center mx-4 rounded-t-lg px-10 py-5">
         <a className="h-[100px] flex items-center ">
           <img
-            src={LogoDomAlberto}
+            src={logoDomAlberto}
             alt=""
             className="h-[80px] px-4 rounded-lg transition-all hover:bg-amarelo_3"
           />
