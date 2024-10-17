@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import TabSemesters from "./tabs/TabSemesters";
 import { entrada } from "../AnimationVariants";
-import ProfsLeft from "/src/assets/images/professores_esquerda.png";
-import ProfsRight from "/src/assets/images/professores_direita.png";
+import ProfsLeft from "/src/assets/images/Professores_esquerda.png";
+import ProfsRight from "/src/assets/images/Professores_direita.png";
 import Documentation from "/src/assets/images/documentation_small.jpg"
 
 export default function About() {
