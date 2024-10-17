@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import TabSemesters from "./tabs/TabSemesters";
 import { entrada } from "../AnimationVariants";
-import ProfsLeft from "../assets/images/professores_esquerda.png";
-import ProfsRight from "../assets/images/professores_direita.png";
+import ProfsLeft from "/src/assets/images/professores_esquerda.png";
+import ProfsRight from "/src/assets/images/professores_direita.png";
 import Documentation from "/src/assets/images/documentation_small.jpg"
 
 export default function About() {
@@ -54,7 +54,7 @@ export default function About() {
             />
             <h2 className="font-medium text-2xl z-10">Documentação</h2>
             <p className="z-10 mt-4 text-center">
-              Clique aqui aara ver a documentação necessaria.
+              Clique aqui para ver a documentação necessaria.
             </p>
           </motion.a>
 
