@@ -57,7 +57,7 @@ export default function Home() {
                 className="flex items-center"
               >
                 <Clock1 size={20} />
-                <p className="ml-2">4240h</p>
+                <p className="ml-2">4240<abbr title="Horas">H</abbr></p>
               </motion.div>
               <motion.div
                 variants={entrada("left", 0.48)}

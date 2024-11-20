@@ -43,9 +43,7 @@ export default function Header() {
           </ul>
         </nav>
       </motion.header>
-      <header className="md:hidden h-[50px] flex justify-end items-center p-4">
-        <Midias />
-      </header>
+      
     </>
   );
 }

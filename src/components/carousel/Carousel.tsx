@@ -12,6 +12,7 @@ interface iCards {
   image: string;
   title: string;
   description: string;
+  alt_description: string;
 }
 
 const cards: iCards[] = [
@@ -19,6 +20,7 @@ const cards: iCards[] = [
     id: 1,
     image: RobotHand,
     title: "Projeto e Integração de Hardware e Software",
+    alt_description: "Imagem de um engenheiro da computação realizando a manutenção em uma mão robótica.",
     description:
       "Engenheiros da Computação precisam entender tanto o lado físico quanto o digital dos sistemas. Durante a formação, você será treinado para projetar e integrar hardware com software, permitindo a criação de dispositivos inteligentes e sistemas embarcados.",
   },
@@ -26,6 +28,7 @@ const cards: iCards[] = [
     id: 2,
     image: Profile,
     title: "Lógica e Raciocínio Computacional",
+    alt_description: "Imagem representando a lógica e o raciocínio computacional de um engenheiro da computação.",
     description:
       "Uma habilidade central para todo engenheiro da computação é a capacidade de pensar de forma lógica e analítica. Você aprenderá a desenvolver algoritmos e resolver problemas complexos com eficiência, uma competência essencial para qualquer desafio tecnológico.",
   },
@@ -33,6 +36,7 @@ const cards: iCards[] = [
     id: 3,
     image: Nairo,
     title: "Trabalho em Equipe e Gestão de Projetos",
+    alt_description: "Imagem de um profissional de TI lendo um livro sobre gestão de projetos e pessoas.",
     description:
       "O desenvolvimento de soluções tecnológicas raramente é um trabalho solitário. Você aprenderá a trabalhar em equipes multidisciplinares, aplicando técnicas de gestão de projetos, como metodologias ágeis, para garantir a entrega de soluções eficazes e no prazo.",
   },
@@ -40,6 +44,7 @@ const cards: iCards[] = [
     id: 4,
     image: Devloping,
     title: "Inovação Contínua",
+    alt_description: "Imagem de uma engenheira da computação desenvolvendo um software.",
     description:
       "O curso incentiva a inovação contínua e o aprendizado ao longo da vida, preparando os alunos para se adaptarem às rápidas mudanças tecnológicas. Com uma base sólida em princípios de engenharia e uma abordagem prática para a solução de problemas complexos em diversas áreas.",
   },

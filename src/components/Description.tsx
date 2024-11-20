@@ -51,15 +51,15 @@ export default function About() {
             whileInView={"visible"}
             className="flex flex-col justify-center p-8 overflow-hidden text-slate-100 bg-gradient-to-tl to-orange_2 from-orange_1 rounded-lg shadow-xl col-span-2 md:col-span-3 2xl:col-span-2 row-span-1 "
           >
-            <h2 className="font-medium text-2xl">Nota do Enade</h2>
-            <h3 className="text-9xl text-end font-bold">4</h3>
+            <h2 className="font-medium text-2xl">Nota do Enade<br></br><strong className="text-9xl text-end font-bold">4</strong></h2>
+           
           </motion.section>
           <motion.a
             variants={entrada("right", 0.25)}
             initial="opHidden"
             viewport={{ once: true, amount: 0.7 }}
             whileInView={"visible"}
-            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            href="https://domalberto.edu.br/"
             target="_blank"
             className="flex flex-col relative justify-center items-center p-8 hover:bg-blue_3 text-slate-100 bg-gradient-to-br to-blue_1 from-blue_2 rounded-lg shadow-xl overflow-hidden col-span-2 md:col-span-3 2xl:col-span-2 row-span-1 "
           >
@@ -83,6 +83,7 @@ export default function About() {
           >
             <iframe
               className="w-full h-full rounded-xl"
+              title="Video de apresentação da faculdade e do vestibular de verão 2024."
               src="https://www.youtube.com/embed/jgJbxOriK7Q?si=r6YbhdLuEFkrBIso"
             />
           </motion.div>

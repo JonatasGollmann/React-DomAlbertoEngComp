@@ -10,24 +10,24 @@ export default function Footer() {
           <section className="flex gap-5 items-center">
             <img
               src={logoDomAlberto}
-              alt="Logotipo da faculdade Dom Alberto."
+              alt="Logotipo no rodapé da faculdade Dom Alberto."
               className="size-20 "
             />
             <img
               src={logoJonatas}
-              alt="Logitipo de identificação de Jonatas Gollmann"
+              alt="Logitipo no rodapé de identificação de Jonatas Gollmann"
               className="size-10"
             />
           </section>
           <section>
             <nav className="flex gap-4 py-3 text-white_3 border-b-2 mb-4">
-              <a href="https://www.instagram.com/dom.alberto/" className="p-2.5 hover:bg-orange_3 bg-orange_2 hover:text-white_2 rounded-full hover:rounded-lg transition-all">
+              <a href="https://www.instagram.com/dom.alberto/" title="Instagram da faculdade Dom Alberto" className="p-2.5 hover:bg-orange_3 bg-orange_2 hover:text-white_2 rounded-full hover:rounded-lg transition-all">
                 <Instagram />
               </a>
-              <a href="https//github.com/jonatasGollmann/" className="p-2.5 hover:bg-orange_3 bg-orange_2 hover:text-white_2 rounded-full hover:rounded-lg transition-all">
+              <a href="https//github.com/jonatasGollmann/" title="Github do desenvolvedor" className="p-2.5 hover:bg-orange_3 bg-orange_2 hover:text-white_2 rounded-full hover:rounded-lg transition-all">
                 <Github />
               </a>
-              <a href="https://domalberto.edu.br/curso/engenharia-da-computacao/" className="p-2.5 bg-orange_2 hover:bg-orange_3 hover:text-white_2 rounded-full hover:rounded-lg transition-all">
+              <a href="https://domalberto.edu.br/curso/engenharia-da-computacao/" title="Site da Engenharia da computação utilizado como referência." className="p-2.5 bg-orange_2 hover:bg-orange_3 hover:text-white_2 rounded-full hover:rounded-lg transition-all">
                 <PanelTop />
               </a>
             </nav>

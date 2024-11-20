@@ -6,7 +6,7 @@ export default function CarouselCards({ card }: { card: any }) {
     >
       <img
         src={card.image}
-        alt={card.title}
+        alt={card.alt_description}
         className="h-[200px] w-full object-cover rounded-t-2xl"
       />
       <h2 className="mt-6 2xl:text-xl px-4 font-medium text-blue_3">{card.title}</h2>
