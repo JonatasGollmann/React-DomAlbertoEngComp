@@ -2,10 +2,10 @@ import { useRef } from "react";
 import CarouselCards from "../cards/CarouselCards";
 import { motion, useScroll, useTransform } from "framer-motion";
 import logoDomAlberto from "/src/assets/icons/logo_domalberto.jpg";
-import RobotHand from "/src/assets/images/roboticHand_small.jpg";
-import Profile from "/src/assets/images/profile_small.jpg";
+import EmbSis from "/src/assets/images/roboticHand_small.jpg";
+import Logic from "/src/assets/images/aula_engsoftware.jpeg";
 import Nairo from "/src/assets/images/nairo.jpg";
-import Devloping from "/src/assets/images/developing_small.jpg";
+import Robot from "/src/assets/images/aula_robotica.jpeg";
 
 interface iCards {
   id: number;
@@ -18,7 +18,7 @@ interface iCards {
 const cards: iCards[] = [
   {
     id: 1,
-    image: RobotHand,
+    image: EmbSis,
     title: "Projeto e Integração de Hardware e Software",
     alt_description: "Imagem de um engenheiro da computação realizando a manutenção em uma mão robótica.",
     description:
@@ -26,9 +26,9 @@ const cards: iCards[] = [
   },
   {
     id: 2,
-    image: Profile,
+    image: Logic,
     title: "Lógica e Raciocínio Computacional",
-    alt_description: "Imagem representando a lógica e o raciocínio computacional de um engenheiro da computação.",
+    alt_description: "Imagem exibindo um código de definição de um banco de dados SQL.",
     description:
       "Uma habilidade central para todo engenheiro da computação é a capacidade de pensar de forma lógica e analítica. Você aprenderá a desenvolver algoritmos e resolver problemas complexos com eficiência, uma competência essencial para qualquer desafio tecnológico.",
   },
@@ -42,9 +42,9 @@ const cards: iCards[] = [
   },
   {
     id: 4,
-    image: Devloping,
+    image: Robot,
     title: "Inovação Contínua",
-    alt_description: "Imagem de uma engenheira da computação desenvolvendo um software.",
+    alt_description: "Imagem de um robo desenvolvido durante a aula de robótica.",
     description:
       "O curso incentiva a inovação contínua e o aprendizado ao longo da vida, preparando os alunos para se adaptarem às rápidas mudanças tecnológicas. Com uma base sólida em princípios de engenharia e uma abordagem prática para a solução de problemas complexos em diversas áreas.",
   },
